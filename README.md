@@ -43,6 +43,14 @@ Add tiles that represent the alphabet.
 ### `tiles.index`
 The index of tiles loaded.
 
+If you would like to retrieve a tile later:
+
+```js
+// Using dom-tilemap, set 10,10 to the rock tile
+var rock = tiles.index['rock'].index
+tilemap.set(10, 10, rock)
+```
+
 ### `tiles.length`
 The amount of tiles that have been loaded.
 
