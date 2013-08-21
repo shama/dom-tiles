@@ -1,6 +1,8 @@
 # dom-tiles
 Load CSS tiles for a DOM tilemap.
 
+Checkout [dom-tilemap](https://github.com/shama/dom-tilemap) for rendering these tiles into the DOM.
+
 ## api
 
 ### `var tiles = require('dom-tiles')(options)`
